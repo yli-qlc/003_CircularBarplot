@@ -2,7 +2,7 @@
 library(tidyverse)
 
 # Create dataset
-data <- read.csv("C:\\Users\\YingLi\\Desktop\\test3.csv",header=TRUE, sep=",")
+data <- read.csv("...\\your data.csv",header=TRUE, sep=",")
 data$id <- seq(1, nrow(data))
 view (data)
 # Make the plot
