@@ -6,7 +6,7 @@ library(tidyverse)
 library(dplyr)
 
 # Create dataset
-data <- read.csv("C:\\Users\\YingLi\\Desktop\\test3.csv",header=TRUE, sep=",")
+data <- read.csv("...\\yourdata.csv",header=TRUE, sep=",")
 data$Region <- as.factor(data$Region)
 
 # Set a number of 'empty bar' to add at the end of each group
